@@ -1,0 +1,21 @@
+*{
+    color:white;
+    background-color:#4d0019;
+    font-family:arial,helvetica;
+}
+
+p{
+  height: 20px;
+  width: 200px;
+  overflow: hidden;
+  position: relative;
+    color:black;
+    animation: p 8s linear infinite;
+    font-weight:bold;
+}
+
+@keyframes p {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
