@@ -9,8 +9,8 @@ p{
   width: 200px;
   overflow: hidden;
   position: relative;
-    color:black;
-    animation: p 8s linear infinite;
+    color:white;
+    animation: p 20s linear infinite;
     font-weight:bold;
 }
 
@@ -19,3 +19,22 @@ p{
   100% { left: -100%; }
 }
 
+h1{
+  font-weight:lighter;
+}
+
+h3{
+  font-weight:lighter;
+}
+
+h5{
+  font-weight:lighter;
+}
+
+ol{
+  font-weight:lighter;
+}
+
+ul{
+  font-weight:lighter;
+}
