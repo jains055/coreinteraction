@@ -2,11 +2,12 @@
     color:white;
     background-color:#4d0019;
     font-family:arial,helvetica;
+    text-align:center;
 }
 
 p{
   height: 20px;
-  width: 200px;
+  width: 800px;
   overflow: hidden;
   position: relative;
     color:white;

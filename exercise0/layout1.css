@@ -1,0 +1,32 @@
+body{
+    background: linear-gradient(316deg, #ea0c0c, #e4930a, #e7ec11, #0daddd, #0d36dd, #5b0ddd);
+background-size: 1200% 1200%;
+-webkit-animation: p 22s ease infinite;
+-moz-animation: p 22s ease infinite;
+animation: p 22s ease infinite;
+color:white;
+font-family:arial;
+font-size:20px;
+}
+
+
+@-webkit-keyframes p {
+    0%{background-position:0% 33%}
+    50%{background-position:100% 68%}
+    100%{background-position:0% 33%}
+}
+@-moz-keyframes p {
+    0%{background-position:0% 33%}
+    50%{background-position:100% 68%}
+    100%{background-position:0% 33%}
+}
+@keyframes p { 
+    0%{background-position:0% 33%}
+    50%{background-position:100% 68%}
+    100%{background-position:0% 33%}
+}
+
+a{
+    text-decoration:none
+    color:white;
+}
