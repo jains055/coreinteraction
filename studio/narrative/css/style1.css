@@ -1,0 +1,183 @@
+*{
+     font-size:20px;
+    font-family:courier;
+    letter-spacing:2px;
+}
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container:hover{
+    cursor:pointer;
+}
+
+.text1{
+    position:absolute;
+    z-index:1;
+    width:510px;
+    top:-100px;
+    left:-670px;
+  /*mix-blend-mode: multiply; */
+}
+
+.text2{
+    position:absolute;
+    z-index:1;
+    width:640px;
+    top:-300px;
+    left:-670px;
+}
+
+.text3{
+    position:absolute;
+    z-index:1;
+    width:640px;
+    top:-300px;
+    left:30px;
+}
+
+.text4{
+    position:absolute;
+    z-index:1;
+    width:640px;
+    left:30px;
+    top:-50px;
+}
+
+.text5{
+    position:absolute;
+    z-index:1;
+    width:640px;
+    top:150px;
+    left:-670px;
+}
+
+.text6{
+    position:absolute;
+    z-index:1;
+    width:640px;
+    left:30px;
+    top:240px;
+}
+
+.notext{
+    visibility:hidden;    
+}
+
+.face{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:1;
+    mix-blend-mode: exclusion;
+}
+
+.wing{
+    position:absolute;
+    z-index:0;
+    top:-183px;
+    left:-372px;
+    
+}
+
+.glove{
+    position:absolute;
+    z-index:0;
+    top:-355px;
+    left:-267px;
+}
+
+.hook{
+     position:absolute;
+     z-index:0;
+     top:-312px;
+     left:-62px;
+}
+
+.righteye{
+     position:absolute;
+     z-index:2;
+     top:-110px;
+     left:30px;
+}
+
+.lefteye{
+     position:absolute;
+     z-index:2;
+     top:-90px;
+     left:-105px;
+}
+
+.grayscale{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.color{
+    -webkit-filter: none;
+    filter: none;
+}
+
+/* fade in */
+ 
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ 
+.fade-in {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe fadeIn,  */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	-webkit-animation-duration:2s;
+	-moz-animation-duration:2s;
+	animation-duration:2s;
+}
+ 
+.fade-in.one {
+-webkit-animation-delay: 0.7s;
+-moz-animation-delay: 0.7s;
+animation-delay: 0.7s;
+}
+ 
+.fade-in.two {
+-webkit-animation-delay: 3s;
+-moz-animation-delay:3s;
+animation-delay: 3s;
+}
+ 
+.fade-in.three {
+-webkit-animation-delay: 7s;
+-moz-animation-delay: 7s;
+animation-delay: 7s;
+}
+
+.fade-in.four {
+-webkit-animation-delay: 11s;
+-moz-animation-delay: 11s;
+animation-delay: 11s;
+}
+
+.fade-in.five {
+-webkit-animation-delay: 15s;
+-moz-animation-delay: 15s;
+animation-delay: 15s;
+}
+
+.fade-in.six {
+-webkit-animation-delay: 19s;
+-moz-animation-delay: 19s;
+animation-delay: 19s;
+}
+
+ 
