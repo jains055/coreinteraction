@@ -17,7 +17,7 @@
 
 .text1{
     position:absolute;
-    z-index:1;
+    z-index:3;
     width:510px;
     top:-100px;
     left:-670px;
@@ -34,7 +34,7 @@
 
 .text3{
     position:absolute;
-    z-index:1;
+    z-index:4;
     width:640px;
     top:-300px;
     left:30px;
@@ -45,71 +45,71 @@
     z-index:2;
     width:640px;
     left:30px;
-    top:-50px;
+    top:-100px;
 }
 
 .text5{
     position:absolute;
-    z-index:1;
+    z-index:3;
     width:640px;
-    top:150px;
+    top:130px;
     left:-670px;
 }
 
 .text6{
     position:absolute;
-    z-index:1;
+    z-index:3;
     width:640px;
     left:30px;
-    top:240px;
+    top:130px;
 }
 
 .notext{
     opacity:0;    
 }
 
-.face{
+.house{
     position:absolute;
-    top: 50%;
-    left: 50%;
+    top:0px;
+    left:103px;
     transform: translate(-50%, -50%);
     z-index:1;
 }
 
-.wing{
+.plate{
     position:absolute;
     z-index:0;
-    top:-183px;
-    left:-372px;
+    top:46px;
+    left:-360px;
     
 }
 
-.glove{
+.car{
     position:absolute;
-    z-index:0;
-    top:-355px;
-    left:-267px;
+    z-index:1;
+    top:-10px;
+    left:-300px;
 }
 
-.hook{
+.horn{
      position:absolute;
      z-index:0;
-     top:-312px;
+     top:-256px;
      left:-62px;
 }
 
-.righteye{
+.face1{
      position:absolute;
-     z-index:2;
-     top:-110px;
-     left:30px;
+     z-index:0;
+     top:50px;
+     left:-136px;
 }
 
-.lefteye{
+.face2{
      position:absolute;
      z-index:2;
-     top:-90px;
-     left:-105px;
+     top:87px;
+     left:-290px;
 }
 
 .grayscale{
@@ -191,6 +191,10 @@ animation-delay: 6s;
     z-index:-1;
 }
 
+.link:hover{
+    background-color:black;
+}
+
 
 .a4:hover{
   -webkit-transform: scale(1.1);
@@ -209,7 +213,6 @@ animation-delay: 6s;
   -webkit-transform: rotate(4deg);
   transform: rotate(4deg);
 }
-
 
    .a6:hover {
       opacity: 0.5;

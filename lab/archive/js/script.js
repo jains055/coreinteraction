@@ -172,5 +172,11 @@ $(document).ready(function(){
         y = true;
          checkWin3();
     });
+    
+    $(".main").hover(function(){
+    $(".main").toggleClass("mainflip");
+    $("#heads").toggleClass("noshow");
+    });
+    
 });
 

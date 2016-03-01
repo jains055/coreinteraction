@@ -6,7 +6,7 @@
 
 .container{
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -19,7 +19,7 @@
     position:absolute;
     z-index:1;
     width:510px;
-    top:-100px;
+    top:-40px;
     left:-670px;
   /*mix-blend-mode: multiply; */
 }
@@ -28,7 +28,7 @@
     position:absolute;
     z-index:1;
     width:640px;
-    top:-300px;
+    top:-250px;
     left:-670px;
 }
 
@@ -36,13 +36,13 @@
     position:absolute;
     z-index:1;
     width:640px;
-    top:-300px;
+    top:-250px;
     left:30px;
 }
 
 .text4{
     position:absolute;
-    z-index:2;
+    z-index:3;
     width:640px;
     left:30px;
     top:-50px;
@@ -52,64 +52,65 @@
     position:absolute;
     z-index:1;
     width:640px;
-    top:150px;
+    top:200px;
     left:-670px;
 }
 
 .text6{
     position:absolute;
-    z-index:1;
+    z-index:2;
     width:640px;
     left:30px;
-    top:240px;
+    top:195px;
 }
 
 .notext{
     opacity:0;    
 }
 
-.face{
+.hat{
+      position:absolute;
+    z-index:2;
+    top:-100px;
+    left:40px;
+}
+
+.house{
+
     position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index:1;
-}
-
-.wing{
-    position:absolute;
     z-index:0;
-    top:-183px;
-    left:-372px;
     
 }
 
-.glove{
+.face2{
     position:absolute;
-    z-index:0;
-    top:-355px;
-    left:-267px;
+    z-index:2;
+    top:-13px;
+    left:-162px;
 }
 
-.hook{
-     position:absolute;
-     z-index:0;
-     top:-312px;
-     left:-62px;
-}
-
-.righteye{
+.eye2{
      position:absolute;
      z-index:2;
-     top:-110px;
-     left:30px;
+     top:50px;
+     left:-33px;
 }
 
-.lefteye{
+.wheel{
      position:absolute;
      z-index:2;
-     top:-90px;
-     left:-105px;
+     top:120px;
+     left:-150px;
+}
+
+.vase{
+     position:absolute;
+     z-index:2;
+     top:-50px;
+     left:25px;
 }
 
 .grayscale{
@@ -179,7 +180,6 @@ animation-delay: 5s;
 animation-delay: 6s;
 }
 
-
 .white{
     color:white;
 }
@@ -210,10 +210,9 @@ animation-delay: 6s;
   transform: rotate(4deg);
 }
 
-
-   .a6:hover {
-      opacity: 0.5;
-      }
+.a6:hover {
+opacity: 0.5;
+ }
 
 
 .a1:hover{
@@ -227,3 +226,4 @@ animation-delay: 6s;
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
+ 
