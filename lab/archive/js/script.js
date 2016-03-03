@@ -173,10 +173,5 @@ $(document).ready(function(){
          checkWin3();
     });
     
-    $(".main").hover(function(){
-    $(".main").hide()
-
-    });
-    
 });
 
