@@ -3,9 +3,9 @@ body{
 background: linear-gradient(270deg, #dbdbdb, #ffffff);
 background-size: 400% 400%;
 
--webkit-animation: gradient 20s ease infinite;
--moz-animation: gradient 20s ease infinite;
-animation: gradient 10s ease infinite;
+-webkit-animation: gradient 10s ease infinite;
+-moz-animation: gradient 10s ease infinite;
+animation: gradient 5s ease infinite;
 
 font-family:baskerville;
 letter-spacing: 2px;
