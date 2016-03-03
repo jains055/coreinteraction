@@ -87,10 +87,6 @@ a:hover{
     transform: rotate(-90deg);
 }
 
-.mainflip{
-  unicode-bidi:bidi-override;
-  direction:rtl;
-}
 
 
 .main:hover{
