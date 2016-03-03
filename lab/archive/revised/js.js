@@ -27,7 +27,7 @@ var y = false;
 
 function checkWin() {
     if (a == true && b ==true && c==true && d==true && q==true && f==true && g==true &&h==true) { 
-     $(".sub1").show();
+     $(".sub3").show();
     }
 }
 
@@ -39,7 +39,7 @@ function checkWin2() {
 
 function checkWin3() {
     if (r == true && s ==true && t==true && u==true && v==true && w==true && x==true && y==true) { 
-     $(".sub3").show();
+     $(".sub1").show();
     }
 }
 
@@ -171,11 +171,6 @@ $(document).ready(function(){
         $(".y").removeClass("flip");
         y = true;
          checkWin3();
-    });
-    
-    $(".main").hover(function(){
-    $(".main").hide()
-
     });
     
 });
