@@ -4,6 +4,10 @@
    background-image: url('grid.jpg');
    height: 925px;
    width: 925px;
+       position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #Library:hover {
