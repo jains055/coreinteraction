@@ -1,0 +1,17 @@
+
+svg {
+  position: fixed;
+    top: 0px;
+    left: 0px;
+    width:106%;
+    height:106%;
+}
+
+.path {
+  stroke-dashoffset: 1000;
+  stroke-dasharray: 1000;
+}
+
+.frame {
+  height: 700px;
+}

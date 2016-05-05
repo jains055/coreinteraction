@@ -1,0 +1,88 @@
+body {
+  /* feel free to change height */
+  height: 800px;
+}
+
+
+svg {
+  position: fixed;
+    top: -13px;
+    left: 0px;
+    width:50%;
+    height:106%;
+}
+
+.circle{
+  position: fixed;
+  top:20px;
+  right:20px;
+	border-radius:10px;
+	width: 20px;
+	height: 20px; 
+	background-color: red;
+}
+
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.block2,.block3,.block4,.block5,.block6,.block7{
+  position: fixed;
+  left:57%;
+  top:11%;
+}
+
+.instruction{
+  position: fixed;
+  left:72%;
+  top:45%;
+  font-family:helvetica;
+  color:red;
+  font-size: 16px;
+  text-align: center;
+  z-index: 4;
+}
+
+.blink{
+  -webkit-animation-name: blinker;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+
+	-moz-animation-name: blinker;
+	-moz-animation-duration: 1s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+
+	animation-name: blinker;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes blinker {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+
+.info{
+  position: fixed;
+  left:70%;
+  top:45%;
+  font-family:helvetica;
+  color:red;
+  font-size: 16px;
+  text-align: center;
+  z-index:3;
+}
+
+.none{
+  opacity: 0;
+}
+
+.cover{
+  position:fixed;
+  left:52%;
+  top: 45px;
+  width: 46%;
+  height: 90%;
+  z-index:2;
+  background-color: white;
+}

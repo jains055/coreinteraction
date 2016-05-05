@@ -1,0 +1,25 @@
+body {background: red}
+
+.svg-wrapper {
+    width: 500px;
+    height: 500px;
+}
+
+svg {
+  width:100%;
+  height:100%;
+}
+
+/* Change the color of the fill of the svg to pink */
+
+/* Change the stroke of the svg to black */
+
+/* Change the fill of one line to white */
+
+/* Create an animation that spins the astrix */
+
+/* Create an animation that spins each line 360degrees seperately */
+
+/* Create an animation that changes the fill color of the astrix over 5s */
+
+/* HARD: Create an animation that make the logo look like it breaks apart and disappears */
