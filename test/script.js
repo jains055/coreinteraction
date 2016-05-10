@@ -134,7 +134,7 @@ $( ".instruction" ).show();
    $('.block61').delay(1000).fadeOut(1000);
                $('.block71').delay(18000).fadeIn(1000);
    $('.block71').delay(1000).fadeOut(1000);
-                 $('.instruction2').delay(22000).fadeIn(1000);
+                 $('.instruction2').delay(21000).fadeIn(1000);
    
 //   $('.block11').delay(2500).hide();
  //   $('.block21').fadeIn(5500);

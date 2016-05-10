@@ -41,7 +41,7 @@ svg {
 
 .instruction2{
   position: fixed;
-  left:27%;
+  left:35%;
   top:50%;
   height: 40px;
   width:200px;
@@ -118,7 +118,7 @@ cursor: pointer;
 
 .info2{
   position: fixed;
-  left:50%;
+  left:35%;
   top:50%;
   font-family:helvetica;
   color:red;
@@ -156,11 +156,15 @@ body{
 }
 
 #largeWrapper{
+	margin:0px;
+	padding:50px;
 	background-size:cover;
 	height:100%;
 }
 
 #smallWrapper{
+	margin:0px;
+	padding:50px;
 	background-size:cover;
 	height:100%;
 }
