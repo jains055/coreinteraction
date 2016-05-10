@@ -41,7 +41,7 @@ svg {
 
 .instruction2{
   position: fixed;
-  left:35%;
+  left:27%;
   top:50%;
   height: 40px;
   width:200px;
@@ -118,7 +118,7 @@ cursor: pointer;
 
 .info2{
   position: fixed;
-  left:35%;
+  left:50%;
   top:50%;
   font-family:helvetica;
   color:red;
@@ -156,27 +156,23 @@ body{
 }
 
 #largeWrapper{
-	margin:0px;
-	padding:50px;
 	background-size:cover;
 	height:100%;
 }
 
 #smallWrapper{
-	margin:0px;
-	padding:50px;
 	background-size:cover;
 	height:100%;
 }
 
 
-@media (min-width: 500px) { /*ANYTHING ABOVE 500PX */
+@media (min-width: 400px) { /*ANYTHING ABOVE 500PX */
 	#largeWrapper{ display: block; margin: 0 auto; } /* SHOW */
 	#smallWrapper { display: none; }	 /*HIDE */
 }
 
 
-@media only screen and (max-width: 500px) { /*ANYTHING BELOW 500PX */
+@media only screen and (max-width: 400px) { /*ANYTHING BELOW 500PX */
     #smallWrapper { display: block; margin: 0 auto; } /* SHOW */
 	#largeWrapper{ display: none; } /* HIDE */
     }
