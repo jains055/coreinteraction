@@ -9,6 +9,14 @@ $( document ).ready(function() {
     $(".block6").hide();
     $(".block7").hide();
     
+      $(".block11").hide();
+    $(".block21").hide();
+    $(".block31").hide();
+    $(".block41").hide();
+    $(".block51").hide();
+    $(".block61").hide();
+    $(".block71").hide();
+    
     
 // Get a reference to the <path>
 var path = document.querySelector('#line-path');
@@ -104,4 +112,36 @@ $( ".instruction" ).show();
     $('.cover').toggleClass('none'); 
     });
 
+ $('.circle2').click(function(){
+    $('.info2').toggleClass('none2'); 
+    $('.cover2').toggleClass('none2'); 
+    });
+
+
+  $('.instruction2').click(function() {
+    $(".instruction2").hide();
+   $('.block11').fadeIn(1000);
+   $('.block11').delay(1000).fadeOut(1000);
+     $('.block21').delay(3000).fadeIn(1000);
+   $('.block21').delay(1000).fadeOut(1000);
+       $('.block31').delay(6000).fadeIn(1000);
+   $('.block31').delay(1000).fadeOut(1000);
+          $('.block41').delay(9000).fadeIn(1000);
+   $('.block41').delay(1000).fadeOut(1000);
+             $('.block51').delay(12000).fadeIn(1000);
+   $('.block51').delay(1000).fadeOut(1000);
+              $('.block61').delay(15000).fadeIn(1000);
+   $('.block61').delay(1000).fadeOut(1000);
+               $('.block71').delay(18000).fadeIn(1000);
+   $('.block71').delay(1000).fadeOut(1000);
+                 $('.instruction2').delay(22000).fadeIn(1000);
+   
+//   $('.block11').delay(2500).hide();
+ //   $('.block21').fadeIn(5500);
+    //else $('a').fadeOut();
+  //  hidden = !hidden;
+  });
+  
+  
+  
 });

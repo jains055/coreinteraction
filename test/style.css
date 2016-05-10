@@ -36,7 +36,24 @@ svg {
   color:red;
   font-size: 16px;
   text-align: center;
+  z-index: 1;
+}
+
+.instruction2{
+  position: fixed;
+  left:35%;
+  top:50%;
+  height: 40px;
+  width:200px;
+  font-family:helvetica;
+  color:red;
+  font-size: 16px;
+  text-align: center;
   z-index: 4;
+}
+
+.instruction2:hover{
+cursor: pointer;
 }
 
 .blink{
@@ -85,4 +102,87 @@ svg {
   height: 90%;
   z-index:2;
   background-color: white;
+  z-index:2;
+}
+
+.circle2{
+  position: fixed;
+  top:20px;
+  right:20px;
+	border-radius:10px;
+	width: 20px;
+	height: 20px; 
+	background-color: red;
+	z-index: 5;
+}
+
+.info2{
+  position: fixed;
+  left:35%;
+  top:50%;
+  font-family:helvetica;
+  color:red;
+  font-size: 16px;
+  text-align: center;
+  z-index:3;
+}
+
+.cover2{
+  position:fixed;
+  left:0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index:2;
+  background-color: white;
+}
+
+.none2{
+  opacity: 0;
+}
+
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+html{
+	height:100%; /*DECLARE 100% HEIGHT ON HTML, BODY, AND YOUR CONTAINING DIV TO GET IT TO STRETCH TO 100% OF THE BROWSER WINDOW */
+}
+
+body{
+	height:100%;
+}
+
+#largeWrapper{
+	margin:0px;
+	padding:50px;
+	background-size:cover;
+	height:100%;
+}
+
+#smallWrapper{
+	margin:0px;
+	padding:50px;
+	background-size:cover;
+	height:100%;
+}
+
+
+@media (min-width: 500px) { /*ANYTHING ABOVE 500PX */
+	#largeWrapper{ display: block; margin: 0 auto; } /* SHOW */
+	#smallWrapper { display: none; }	 /*HIDE */
+}
+
+
+@media only screen and (max-width: 500px) { /*ANYTHING BELOW 500PX */
+    #smallWrapper { display: block; margin: 0 auto; } /* SHOW */
+	#largeWrapper{ display: none; } /* HIDE */
+    }
+
+.images{
+    position: fixed;
+  top:10;
+  left:0;
 }
