@@ -183,6 +183,7 @@ body{
 
 .images{
     position: fixed;
-  top:10;
-  left:0;
+  top:10%;
+  left:-5%;
+  -webkit-transform: scale(0.8); 
 }
