@@ -49,22 +49,24 @@ window.addEventListener("scroll", function(e) {
   // Draw in reverse
   path.style.strokeDashoffset = pathLength - drawLength;
   
+  
 
 if (scrollPercentage > 0.0 && scrollPercentage <= 0.115 ) { // && scrollPercentage <= 0.05
+
 $( ".block1" ).fadeIn( "slow", function() {
   });
 } else {
   $(".block1").hide();
 }
 
-if (scrollPercentage > 0.115 && scrollPercentage <= 0.34 ) { // && scrollPercentage <= 0.05
+if (scrollPercentage > 0.116 && scrollPercentage <= 0.34 ) { // && scrollPercentage <= 0.05
 $( ".block2" ).fadeIn( "slow", function() {
   });
 } else {
   $(".block2").hide();
 }
 
-if (scrollPercentage > 0.34 && scrollPercentage <= 0.44 ) { // && scrollPercentage <= 0.05
+if (scrollPercentage > 0.35 && scrollPercentage <= 0.44 ) { // && scrollPercentage <= 0.05
 $( ".block3" ).fadeIn( "slow", function() {
   });
 } else {
@@ -78,14 +80,14 @@ $( ".block4" ).fadeIn( "slow", function() {
   $(".block4").hide();
 }
 
-if (scrollPercentage > 0.55 && scrollPercentage <= 0.66 ) { // && scrollPercentage <= 0.05
+if (scrollPercentage > 0.56 && scrollPercentage <= 0.66 ) { // && scrollPercentage <= 0.05
 $( ".block5" ).fadeIn( "slow", function() {
   });
 } else {
   $(".block5").hide();
 }
 
-if (scrollPercentage > 0.66 && scrollPercentage <= 0.87 ) { // && scrollPercentage <= 0.05
+if (scrollPercentage > 0.67 && scrollPercentage <= 0.87 ) { // && scrollPercentage <= 0.05
 $( ".block6" ).fadeIn( "slow", function() {
   });
 } else {
@@ -142,6 +144,5 @@ $( ".instruction" ).show();
   //  hidden = !hidden;
   });
   
-  
-  
+
 });
