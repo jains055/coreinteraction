@@ -15,7 +15,7 @@ $('.last').delay(1000).fadeIn();
 
 (function(){
    setTimeout(function(){
-     window.location.href="html.html";
+     window.location.href="index.html";
    },3500); /* 1000 = 1 second*/
 })();
 
