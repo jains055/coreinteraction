@@ -2,7 +2,7 @@
 .shape {
 	position:absolute;
 	background-color: blue;
-	padding: 61px;
+	padding: 58px;
   animation-name: stretch;
   animation-duration: 3.5s; 
   animation-timing-function: ease-out; 
