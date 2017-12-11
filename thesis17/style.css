@@ -30,7 +30,7 @@
 
 
 input {
-z-index: 500;
+z-index: 1000;
 float: right;
 width:1300px; 
 height: 500px;
@@ -45,6 +45,7 @@ outline: none;
 }
 
 input[type=text] {
+	z-index: 1000;
 	font: 34px HelveticaNeue, helvetica, sans-serif;
 	font-weight: bold;
 	text-align: right;
